@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  dashboard-acdoc:
+    build:
+      context: .
+    platform: linux/amd64
+    ports:
+      - "5000:5000"
+    networks:
+      - dashboard-network
+networks:
+  dashboard-network:
+    driver: bridge

@@ -1,0 +1,10 @@
+dash
+dash-bootstrap-components
+dash-core-components
+dash-html-components
+dash-renderer
+pandas
+plotly
+xlsxwriter
+Flask
+gunicorn
