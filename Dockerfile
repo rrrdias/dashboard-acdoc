@@ -6,8 +6,8 @@ FROM tiangolo/uwsgi-nginx-flask:python3.11
 WORKDIR /
 
 # Copie os arquivos do projeto para o diretório de trabalho do contêiner
-COPY ./dados /dados/
-COPY ./app.py /app.py
+COPY ./src/dados /dados/
+COPY ./src/app.py /app.py
 
 
 COPY requirements.txt /tmp/
